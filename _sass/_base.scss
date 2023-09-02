@@ -1,11 +1,15 @@
+/*******************************************************************************
+ * Styles for the base elements of the theme.
+ ******************************************************************************/
+
 /**
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -14,13 +18,13 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: 100;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: $base-font-weight;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
 }
 
 
@@ -31,21 +35,21 @@ body {
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: calc($vertical-spacing-unit / 2);
+  margin-bottom: calc($vertical-spacing-unit / 2);
 }
 
+// TODO: remove if not used.
 .alignright {
-    float: right;
+  float: right;
 }
 
 
 hr{
-    /* Inset, by Dan Eden */
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-
+  /* Inset, by Dan Eden */
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 
@@ -53,11 +57,11 @@ hr{
  * Figures
  */
 figure > img {
-    display: block;
+  display: block;
 }
 
 figcaption {
-    font-size: $small-font-size;
+  font-size: $small-font-size;
 }
 
 
@@ -66,14 +70,14 @@ figcaption {
  * Lists
  */
 ul, ol {
-    margin-left: $horizontal-spacing-unit;
+  margin-left: $horizontal-spacing-unit;
 }
 
 li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
 }
 
 
@@ -82,7 +86,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 100;
+  font-weight: $base-font-weight;
 }
 
 
@@ -90,26 +94,21 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $text-color;
+  color: $text-color;
+  text-decoration: none;
+  &:hover {
+    color: $theme-color;
     text-decoration: none;
-    /*
-    &:visited {
-        color: darken($brand-color, 15%); 
-    }
-    */
-    &:hover {
-        color: $theme-color;
-        text-decoration: none;
-    }
+  }
 }
 
 article a {
-    color: $theme-color;
-    font-weight: 100;
+  color: $theme-color;
+  font-weight: $base-font-weight;
 
-    &:hover {
-        text-decoration: none;
-    }
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 
@@ -118,15 +117,14 @@ article a {
  * Blockquotes
  */
 blockquote {
-    color: $text-color;
-    border-left: 10px solid $grey-color-light;
-    padding-left: calc($horizontal-spacing-unit / 2);
-    font-size: 18px;
-    font-style: italic;
+  color: $text-color;
+  border-left: 10px solid $grey-color-light;
+  padding-left: calc($horizontal-spacing-unit / 2);
+  font-size: $bq-font-size;
 
-    > :last-child {
-        margin-bottom: 0;
-    }
+  > :last-child {
+    margin-bottom: 0;
+  }
 }
 
 
@@ -136,24 +134,23 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
-    border-radius: 3px;
-    background-color: $grey-color-light;
+  font-size: $code-font-size;
+  border-radius: 3px;
 }
 
 code {
-    padding: 1px 5px;
+  padding: 1px 5px;
 }
 
 pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
+  padding: 8px 12px;
+  overflow-x: scroll;
 
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 
@@ -163,20 +160,20 @@ pre {
  */ 
 
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-    max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $horizontal-spacing-unit;
-    padding-left: $horizontal-spacing-unit;
-    @extend %clearfix;
+  max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
+  max-width:         calc(800px - (#{$horizontal-spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $horizontal-spacing-unit;
+  padding-left: $horizontal-spacing-unit;
+  @extend %clearfix;
 
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
-        max-width:         calc(800px - (#{$horizontal-spacing-unit}));
-        padding-right: calc($spacing-unit / 2);
-        padding-left: calc($spacing-unit / 2);
-    }
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
+    max-width:         calc(800px - (#{$horizontal-spacing-unit}));
+    padding-right: calc($spacing-unit / 2);
+    padding-left: calc($spacing-unit / 2);
+  }
 }
 
 
@@ -184,13 +181,10 @@ pre {
  * Clearfix
  */
 %clearfix {
-    &:before,
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
-
-
-
