@@ -1,0 +1,42 @@
+/*******************************************************************************
+ * Variables used throughout the theme.
+ * To adjust anything, simply edit the variables below and rebuild the theme.
+ ******************************************************************************/
+
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5em;
+
+$spacing-unit:                  30px;
+$horizontal-spacing-unit:       50px;
+$vertical-spacing-unit:         40px;
+$nav-height:                    56px;
+
+/* COLORS  */
+$text-color:       #666;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$red:  #FF3636;
+$orange: #F29105;
+$blue: #2698BA;
+$green: #11D68B;
+$lime_green: #B7D12A;
+$purple: #B509AC;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%); /* navigation bar border */
+$grey-color-dark:  darken($grey-color, 25%);  /* footer */
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+/* portfolio tinkering */
+$img_spacing: 5px; 
+$img_height: 275px;
+$caption_font_size: 12px;
+$caption_color: #aaa;
+
+/* Set theme color *************************/
+$theme-color:   $red;
