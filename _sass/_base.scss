@@ -118,12 +118,56 @@ article a {
  */
 blockquote {
   color: $text-color;
-  border-left: 10px solid $grey-color-light;
-  padding-left: calc($horizontal-spacing-unit / 2);
+  border-left: 10px solid $grey-color-dark;
+  background-color: $grey-color-light;
+  margin: 1em 0px;
+  padding: 0.5em 10px;
   font-size: $bq-font-size;
 
   > :last-child {
     margin-bottom: 0;
+  }
+}
+
+/* Notes, warnings, and error */
+.post .post-content blockquote {
+  &.block-note {
+    border-color: $bq-note-color;
+    background-color: $bq-note-color-bg;
+
+    p {
+      color: $bq-note-color-text;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: $bq-note-color-title;
+    }
+  }
+
+  &.block-warning {
+    border-color: $bq-warning-color;
+    background-color: $bq-warning-color-bg;
+
+    p {
+      color: $bq-warning-color-text;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: $bq-warning-color-title;
+    }
+  }
+
+  &.block-error {
+    border-color: $bq-error-color;
+    background-color: $bq-error-color-bg;
+
+    p {
+      color: $bq-error-color-text;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: $bq-error-color-title;
+    }
   }
 }
 

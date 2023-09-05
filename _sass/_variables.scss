@@ -33,7 +33,19 @@ $text-color:       #666;
 $theme-color:      $red;
 
 /* block quotes */
-$bq-font-size:     18px;
+$bq-font-size:              18px;
+$bq-note-color:             #42b983;
+$bq-note-color-bg:          #e2f5ec;
+$bq-note-color-text:        #215d42;
+$bq-note-color-title:       #359469;
+$bq-warning-color:          #e7c000;
+$bq-warning-color-bg:       #fff8d8;
+$bq-warning-color-text:     #6b5900;
+$bq-warning-color-title:    #b29400;
+$bq-error-color:            #c00;
+$bq-error-color-bg:         #ffe0e0;
+$bq-error-color-text:       #600;
+$bq-error-color-title:      #c00;
 
 /* syntax highlighting */
 $code-font-size:   15px;
