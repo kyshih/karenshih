@@ -6,34 +6,37 @@
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-weight: 100;
 $base-font-size:   16px;
-$bq-font-size:     18px;
-$code-font-size:   15px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5em;
 
+/* layout */
 $spacing-unit:                  30px;
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         40px;
-$nav-height:                    56px;
+$header-height:                 56px;
 
-/* COLORS  */
-$text-color:       #666;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
+/* colors  */
 $red:  #FF3636;
 $orange: #F29105;
 $blue: #2698BA;
 $green: #11D68B;
 $lime_green: #B7D12A;
 $purple: #B509AC;
+$white-color: #FFFFFF;
+$black-color: #000000;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%); /* navigation bar border */
 $grey-color-dark:  darken($grey-color, 25%);  /* footer */
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$text-color:       #666;
+$theme-color:      $red;
+
+/* block quotes */
+$bq-font-size:     18px;
+
+/* syntax highlighting */
+$code-font-size:   15px;
 
 /* portfolio tinkering */
 $img_spacing: 5px; 
@@ -41,5 +44,5 @@ $img_height: 275px;
 $caption_font_size: 12px;
 $caption_color: #aaa;
 
-/* Set theme color *************************/
-$theme-color:   $red;
+$on-palm:          600px;
+$on-laptop:        800px;
