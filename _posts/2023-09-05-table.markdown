@@ -1,0 +1,24 @@
+---
+layout: post
+title:  displaying beautiful tables with Bootstrap Tables
+date:   2023-03-20 14:37:00-0400
+description: an example of how to use Bootstrap Tables
+---
+
+Using markdown to display tables is easy. Just use the following syntax:
+
+```markdown
+| Left aligned | Center aligned | Right aligned |
+| :----------- | :------------: | ------------: |
+| Left 1       | center 1       | right 1       |
+| Left 2       | center 2       | right 2       |
+| Left 3       | center 3       | right 3       |
+```
+
+That will generate:
+
+| Left aligned | Center aligned | Right aligned |
+| :----------- | :------------: | ------------: |
+| Left 1       | center 1       | right 1       |
+| Left 2       | center 2       | right 2       |
+| Left 3       | center 3       | right 3       |

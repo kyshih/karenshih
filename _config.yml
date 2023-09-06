@@ -14,8 +14,8 @@ url:  # the base hostname & protocol for your site
 # -----------------------------------------------------------------------------
 
 # Pagination
-paginate: 15
-paginate_path: "/blog/page:num/"
+pagination:
+  enabled: true
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -45,4 +45,4 @@ highlighter: rouge
 
 # Plug-ins
 plugins:
-  - jekyll-paginate # TODO: use jekyll-paginate-v2
+  - jekyll-paginate-v2

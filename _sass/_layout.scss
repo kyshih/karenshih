@@ -103,21 +103,35 @@
 
 /**
  * Pagination   **********************************************************
- * TODO: remove if not used.
  */
-.pagination{
-  max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-  text-align: center;
-  width: 100%;
-  position: fixed;
-  bottom: 50px;
+.pagination {
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  .page-item {
+    .page-link {
+      color: $text-color;
+
+      &:hover {
+        color: $theme-color;
+        background-color: $grey-color-light;
+      }
+    }
+
+    &.active .page-link {
+      color: $white-color;
+      background-color: $theme-color;
+
+      &:hover {
+        background-color: $theme-color;
+      }
+    }
+  }
 }
 
-.paginationicon {
-  font-size: 50px;
-  a {
-    color: $theme-color;
-  }
+.pagination a {
+  padding: 8px 16px;
+  float: left;
 }
 
 /**
