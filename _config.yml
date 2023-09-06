@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: *folio
+title: minimal folio
 email: you@example.com
 description: > # this means to ignore newlines until "baseurl:"
   A simple, whitespace, helvetica based portfolio theme.
@@ -12,6 +12,7 @@ url:  # the base hostname & protocol for your site
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
+include: ['_pages']
 
 # Pagination
 pagination:
@@ -31,9 +32,6 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
-  poetry:
-    output: true
-    permalink: /poetry/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
