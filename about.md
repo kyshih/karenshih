@@ -2,6 +2,7 @@
 layout: page
 title: about
 permalink: /about/
+nav: true
 ---
 
 <img class="col one right" src="/img/prof_pic.jpg">
