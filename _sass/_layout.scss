@@ -283,11 +283,15 @@
 }
 
 .img_row{
-  height: $img_height;
   width: 100%;
-  overflow: hidden;
-  box-sizing:border-box;
+  box-sizing: border-box;
   padding: $img_spacing;
+}
+
+.img_row:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .col{ 
@@ -295,7 +299,7 @@
   height: 100%;
   float: left;
   object-fit: cover;
-  box-sizing:border-box;
+  box-sizing: border-box;
   padding: $img_spacing;
 }
 
@@ -304,7 +308,7 @@
 }
 
 .one {
-  width:33.33%;
+  width: 33.33%;
 }
 
 .two {

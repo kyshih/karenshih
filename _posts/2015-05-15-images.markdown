@@ -28,3 +28,5 @@ Slow-carb four dollar toast Helvetica pop-up. Kale chips next level literally tr
 	<img class="col one" src="/img/12.jpg">
 	<img class="col one" src="/img/7.jpg">
 </div>
+
+Here is a great [tutorial](https://www.quackit.com/css/grid/examples/css_grid_photo_gallery_examples.cfm) on creating image gallery using CSS.
