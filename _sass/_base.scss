@@ -43,7 +43,6 @@ ul, ol, dl, figure,
   float: right;
 }
 
-
 hr{
   /* Inset, by Dan Eden */
   border: 0;
@@ -62,6 +61,46 @@ figure > img {
 
 figcaption {
   font-size: $small-font-size;
+}
+
+
+
+/**
+ * Tables
+ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  vertical-align: middle;
+}
+
+th, td {
+  padding: 8px;
+}
+
+thead {
+  background-color: #333;
+  color: white;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+
+// not supported by Markdown.
+tbody th {
+  background-color: #36c;
+  color: #fff;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) th {
+  background-color: #25c;
 }
 
 
@@ -88,6 +127,7 @@ li {
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
+
 
 
 /**
