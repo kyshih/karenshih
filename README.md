@@ -1,7 +1,7 @@
 # minimal-folio
 A minimalist Jekyll theme for writing blogs and showcasing your work, adapted from [-folio](https://github.com/bogoli/-folio/tree/master).
 
-<a href="http://bogoli.github.io/-folio/">Live Demo</a>
+<a href="https://imkaywu.github.io/minimal-folio/">Live Demo</a>
 
 <hr/>
 
