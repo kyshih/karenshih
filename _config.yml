@@ -14,12 +14,12 @@ url:  # the base hostname & protocol for your site
 # -----------------------------------------------------------------------------
 markdown: kramdown
 highlighter: rouge
-gems:
-  - jekyll-paginate-v2
 include: ['_pages']
 exclude:
   - Gemfile
   - Gemfile.lock
+plugins:
+  - jekyll-paginate-v2
 
 # Pagination
 pagination:
@@ -48,7 +48,3 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
-
-# Plug-ins
-plugins:
-  - jekyll-paginate-v2
