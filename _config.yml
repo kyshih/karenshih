@@ -10,9 +10,16 @@ baseurl:  # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
 
 # -----------------------------------------------------------------------------
-# Blog
+# Build settings
 # -----------------------------------------------------------------------------
+markdown: kramdown
+highlighter: rouge
+gems:
+  - jekyll-paginate-v2
 include: ['_pages']
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 # Pagination
 pagination:
@@ -41,14 +48,6 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
-
-# -----------------------------------------------------------------------------
-# Jekyll settings
-# -----------------------------------------------------------------------------
-
-# Markdown and syntax highlight
-markdown: kramdown
-highlighter: rouge
 
 # Plug-ins
 plugins:
