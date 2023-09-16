@@ -10,13 +10,13 @@
 
       <div class="trigger">
 
-        <a class="page-link" href="{{ '/blog/' | prepend: site.baseurl | prepend: site.url }}">
+        <a class="page-link" href="{{ site.baseurl }}/blog">
           blog
         </a>
 
         {% for page in site.pages %}
           {% if page.nav %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
+          <a class="page-link" href="{{ site.baseurl }}/page.url">
               {{ page.title }}
             </a>
           {% endif %}

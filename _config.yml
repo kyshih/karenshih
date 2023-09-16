@@ -17,6 +17,7 @@ include: ['_pages']
 # Pagination
 pagination:
   enabled: true
+  debug: true
   collection: 'posts'
   per_page: 5
   permalink: '/page/:num/'
