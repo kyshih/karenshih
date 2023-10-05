@@ -217,30 +217,34 @@
  * Code button  **********************************************************
  */
 .copy-code-button {
-    color: #272822;
-    background-color: #fdf6e3;
-    border-color: #fdf6e3;
-    border: 2px solid;
-    border-radius: 3px 3px 0px 0px;
+  position: relative;
+  z-index: 2;
+  right: 0;
+  top: 25px;
 
-    /* right-align */
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
+  color: $grey-dark;
+  background-color: #fdf6e3;
+  border-color: $grey-dark;
+  border: 2px solid;
+  border-radius: 0px 0px 3px 3px;
 
-    margin-bottom: -2px;
-    padding: 3px 8px;
-    font-size: 0.8em;
+  /* right-align */
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: -25px; // a hack to maintain vertical rhythm
+  padding: 3px 8px;
+  font-size: 0.8em;
 }
 
 .copy-code-button:hover {
-    cursor: pointer;
-    background-color: #e6e6e6;
+  cursor: pointer;
+  background-color: $lime-green;
 }
 
 .highlight pre {
-    /* Avoid pushing up the copy buttons. */
-    margin: 0;
+  /* Avoid pushing up the copy buttons. */
+  margin: 0;
 }
 
 /** 
