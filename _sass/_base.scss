@@ -23,7 +23,7 @@ body {
   line-height: $base-line-height;
   font-weight: $base-font-weight;
   color: $text-color;
-  background-color: $white-color;
+  background-color: $white;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -148,7 +148,7 @@ article a {
   font-weight: $base-font-weight;
 
   &:hover {
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 
@@ -159,8 +159,8 @@ article a {
  */
 blockquote {
   color: $text-color;
-  border-left: 10px solid $grey-color-dark;
-  background-color: $grey-color-light;
+  border-left: 10px solid $grey-dark;
+  background-color: $grey-light;
   margin: 1em 0px;
   padding: 0.5em 10px;
   font-size: $bq-font-size;

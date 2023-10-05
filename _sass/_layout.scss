@@ -6,8 +6,8 @@
  * Site header   **********************************************************
  */
 .site-header {
-  border-bottom: 1px solid $grey-color-light;
-  background-color: $white-color;
+  border-bottom: 1px solid $grey-light;
+  background-color: $white;
   opacity: 0.75;
   position: fixed;
   left: 0px;
@@ -79,11 +79,11 @@
  * Site footer  **********************************************************
  */
 .site-footer {
-  border-top: 1px solid $grey-color-dark;
+  border-top: 1px solid $grey-dark;
   font-size: 10px;
-  background-color: $grey-color-dark;
+  background-color: $grey-dark;
   padding: 2px;
-  color: $white-color;
+  color: $white;
   position: fixed;
   left: 0px;
   bottom: 0px;
@@ -94,7 +94,7 @@
   // Remove margin set in _sass/_base.scss for vertical rythm
   margin-bottom: 0;
   > a {
-    color: $white-color;
+    color: $lime-green;
     &:hover {
       color: $theme-color;
     }
@@ -114,12 +114,12 @@
 
       &:hover {
         color: $theme-color;
-        background-color: $grey-color-light;
+        background-color: $grey-light;
       }
     }
 
     &.active .page-link {
-      color: $white-color;
+      color: $white;
       background-color: $theme-color;
 
       &:hover {
@@ -182,7 +182,7 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: $grey;
   margin-bottom: 0px;
 }
 
@@ -297,7 +297,7 @@
   bottom: 0;
   right: 0;
   background: rgba(0,0,0,0.4);
-  color: $grey-color-light;
+  color: $grey-light;
   padding: 40px;
   text-align: center;
 }

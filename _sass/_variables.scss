@@ -16,21 +16,22 @@ $vertical-spacing-unit:         30px;
 $header-height:                 56px;
 
 /* colors  */
-$red:  #FF3636;
+$red: #FF3636;
 $orange: #F29105;
 $blue: #2698BA;
 $green: #11D68B;
 $lime_green: #B7D12A;
-$purple: #B509AC;
-$white-color: #FFFFFF;
-$black-color: #000000;
+$purple: #A16AE8;
+$white: #F8F8F8;
+$charcoal: #051313;
+$black: #000000;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%); /* navigation bar border */
-$grey-color-dark:  darken($grey-color, 25%);  /* footer */
+$grey:       #828282;
+$grey-light: lighten($grey, 40%); /* navigation bar border */
+$grey-dark:  darken($grey, 25%);  /* footer */
 
-$text-color:       #666;
-$theme-color:      $red;
+$text-color:       $charcoal;
+$theme-color:      $purple;
 
 /* block quotes */
 $bq-font-size:              18px;
