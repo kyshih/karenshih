@@ -1,14 +1,14 @@
 ---
 layout: page
-title: photoportfolio
-permalink: /photoportfolio/
+title: gallery
+permalink: /gallery/
 nav: true
 ---
 
 
 {% for image in site.static_files %}
 <!--
-  {% if image.path contains 'photoportfolio' %}
+  {% if image.path contains 'gallery' %}
 -->
 <div class="project">
   <div class= "thumbnail">
