@@ -44,6 +44,6 @@ github_username:  github_username
 # Collections
 # -----------------------------------------------------------------------------
 collections:
-  portfolio:
+  projects:
     output: true
-    permalink: /portfolio/:path/
+    permalink: /projects/:path/
