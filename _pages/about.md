@@ -17,14 +17,21 @@ Link to your social media connections, too. This theme is set up to use <a href=
 <br/>
 <hr/>
 <br/>
-<span class="contacticon center">
-	<a href="mailto:you@example.com"><i class="fa fa-envelope-square"></i></a>
-	<a href="https://github.com" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-	<a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-	<a href="https://x.com" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
-</span>
+<div class="contacticon center">
+    {%- if site.email -%}
+	<a href="mailto:{{ site.email }}"><i class="fa fa-envelope-square"></i></a>
+    {% endif %}
+    {%- if site.github_username -%}
+	<a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+    {% endif %}
+    {%- if site.linkedin_username -%}
+	<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    {% endif %}
+    {%- if site.twitter_username -%}
+	<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+    {% endif %}
+</div>
 
 <div class="col three caption">
 	You can even add a little note about which of these is the best way to reach you.
 </div>
-

@@ -37,8 +37,9 @@ pagination:
 # Social integration
 # -----------------------------------------------------------------------------
 
+github_username: github_username
+linkedin_username: linkedin_username
 twitter_username: twitter_username
-github_username:  github_username
 
 # -----------------------------------------------------------------------------
 # Collections
