@@ -58,3 +58,7 @@ $caption_color: #aaa;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+@mixin relative-font-size($ratio) {
+  font-size: #{$ratio}rem;
+}

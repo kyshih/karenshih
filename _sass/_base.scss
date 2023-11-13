@@ -32,9 +32,14 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: calc($vertical-spacing-unit);
+  margin-bottom: calc($vertical-spacing-unit / 2);
+  font-weight: $base-font-weight;
+}
+
 p, blockquote, pre,
-ul, ol, dl, figure,
-.highlight,
+ul, ol, dl, figure, table, .highlight,
 %vertical-rhythm {
   margin-bottom: calc($vertical-spacing-unit / 2);
 }
