@@ -17,7 +17,7 @@ nav: true
  Some tuomor suppressor inactivation might be crucial in overcoming the protein folding stress. As well, the context-dependent essential genes could be promising therapeutic targets. I am interested in systematically investigate the functional impact of these genes. <br><br>
 
 ### <b> Previosu work </b><br>
-My previous research was focused on the binding mechanism between a ubiquitin ligase and its substrate. This reveals a conserved strategy of how cells sense and alleviate reductive stress. The key players in this reductive tress response have been mutated frequently in cancer. <br><br>
+My previous research was focused on the binding mechanism between a ubiquitin ligase and its substrate. This reveals a conserved strategy of how cells sense and alleviate reductive stress. The key players in this reductive stress response have been found mutated frequently in cancer. <br><br>
 
 #### <b> Publications </b><br>
 Manford AG, Rodríguez-Pérez F, <b>Shih KY</b>, Shi Z, Berdan CA, Choe M, Titov DV, Nomura DK, Rape M. A Cellular Mechanism to Detect and Alleviate Reductive Stress. Cell. 2020 Oct 1;183(1):46-61.e21. doi: 10.1016/j.cell.2020.08.034. Epub 2020 Sep 16. PMID: 32941802. <br><br>
