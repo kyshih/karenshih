@@ -9,11 +9,11 @@ nav: true
 
 <br/>
 I am a PhD student in the Biology department at <a href="https://profiles.stanford.edu/karen-shih" target="blank">Stanford</a>. I am co-advised by <a href="https://petrovlab-stanford.squarespace.com" target="blank">Dmitri Petrov</a> and <a href="https://med.stanford.edu/winslowlab.html" target="blank">Monte Winslow</a>. We study cancer evolution using tumor barcoding, CRISPR/Cas9-mediated gene editing and deep sequencing in mouse models. With this technique, we aim to investigate the fitness landscape of tumor suppression in lung adenocarcinoma under different intracellular or 
-extracellular environments.
+extracellular environments. <br><br>
 
-In my free time, I like social dancing, skiing, playing board games, and lifting.
+In my free time, I like social dancing, skiing, playing board games, and lifting. <br><br>
 
-<a href="{{ site.baseurl }}/assets/cv.pdf" target="_blank" style="font-size: smaller;">CV</a>
+<a href="{{ site.baseurl }}/assets/cv.pdf" target="_blank">CV</a>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite <a href="http://reddit.com" target="blank">subreddit</a>. You can put a picture in, too. The code is already in, just name your picture "prof_pic.jpg" and put it in the img folder. 
 

@@ -5,7 +5,7 @@ permalink: /research/
 nav: true
 ---
 
-### <b> Current PhD work </b><br>
+### <b> Current PhD work </b><br><br>
 
 #### <b> Genetics changes in high tumor mutational burden tumors </b><br>
  Tumors with high tumor mutational burden (TMB), which is composed of mainly passenger mutations that affect protein folding and stability, suffer from protein folding (PF) stress. This can in turn reduce tumor fitness. I am interested in using human genomics data to identify genes that can potentially alleviate the protein folding stress in order to maintain tumor growth and survival.<br><br>
