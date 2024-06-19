@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: gallery
@@ -5,7 +6,7 @@ permalink: /gallery/
 nav: true
 ---
 
-
+{% comment %}
 {% for image in site.static_files %}
 <!--
   {% if image.path contains 'gallery' %}
@@ -25,3 +26,4 @@ nav: true
 <!-- this is for the lightbox --> 
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/lightbox.js"></script>
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/lightbox.css">
+{% endcomment %}

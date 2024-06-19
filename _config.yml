@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: minimal folio
-email: you@example.com
+title: Karen Shih
+email: kyshih@stanford.edu
 description: > # this means to ignore newlines until "baseurl:"
   A simple, whitespace, helvetica based portfolio theme.
-baseurl: /minimal-folio  # the subpath of your site, e.g. /blog/
-url:  # the base hostname & protocol for your site
+baseurl: /karenshih # the subpath of your site, e.g. /blog/
+url:  http://kyshih.github.io # the base hostname & protocol for your site
 
 # -----------------------------------------------------------------------------
 # Build settings
@@ -37,9 +37,10 @@ pagination:
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: github_username
-linkedin_username: linkedin_username
-twitter_username: twitter_username
+github_username: kyshih
+linkedin_username: www.linkedin.com/in/karen-shih-5807a6116
+twitter_username: KarenYShih
+google_scholar_username: citations?user=Ektz5joAAAAJ&hl=en
 
 # -----------------------------------------------------------------------------
 # Collections

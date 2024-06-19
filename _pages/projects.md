@@ -1,10 +1,11 @@
+
 ---
 layout: page
 title: projects
 permalink: /projects/
 nav: true
 ---
-
+{% comment %}
 {% for project in site.projects %}
 
 {% if project.redirect %}
@@ -46,3 +47,4 @@ nav: true
 {% endif %}
 
 {% endfor %}
+{% endcomment %}
