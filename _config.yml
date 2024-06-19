@@ -5,7 +5,7 @@
 title: Karen Shih
 email: kyshih@stanford.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Karen Shih portfolio.
+  Karen Shih personal website.
 baseurl: /karenshih # the subpath of your site, e.g. /blog/
 url:  http://kyshih.github.io # the base hostname & protocol for your site
 
