@@ -1,12 +1,46 @@
-# minimal-folio
-A minimalist Jekyll theme for writing blogs and showcasing your work, adapted from [-folio](https://github.com/bogoli/-folio/tree/master).
-
-<a href="https://imkaywu.github.io/minimal-folio/">Live Demo</a>
+# Building a personal website
+I chose to use the static site generator, <a href="https://github.com/jekyll/jekyll?tab=readme-ov-file">Jekyll</a>. It works seamlessly with GitHub.
+It is very customizable without being overly complicated. The Jekyll theme I use for my
+website is adapted from <a href="https://github.com/imkaywu/minimal-folio?tab=readme-ov-file">minimal folio</a> by Kai Wu. See my website <a href="https://kyshih.github.io/karenshih/">my website</a>.
 
 <hr/>
 
+## Getting started
+Jekyll is written in Ruby. You can find how to install Ruby <a href="https://www.ruby-lang.org/en/downloads/">here</a>. You would need ruby version manager <a href="https://github.com/rbenv/rbenv">rbenv</a> or <a href="http://rvm.io">RVM</a> in order to switch between the pre-installed Ruby on MacOS and the Ruby for your website. <a href="https://mac.install.guide/faq/do-not-use-mac-system-ruby/">This</a> goes into detail why we shouldn't use the MacOS system Ruby.
 
-## Features
+## Choose your favorite Jekyll theme
+I am using <a href="https://github.com/imkaywu/minimal-folio?tab=readme-ov-file">minimal folio</a> by Kai Wu. But you can find many others <a href="https://jekyllthemes.io">here</a> or <a href="https://github.com/topics/jekyll-theme">here</a>.
+
+Once you find your favoriate theme, fork the repo on GitHub and name your new repo for publishing your website.
+
+## Testing site locally with Jekyll
+
+````markdown
+```unix
+git clone your_repo
+cd local_path_to_your_repo
+rbenv local 3.3.3 # ruby version for your site
+ruby -v # should return ruby 3.3.3
+bundle install # install all other dependencies specified in your Gemfile
+bundle exec jekyll serve # run your Jekyll site locally
+```
+````
+You can now see you site at http://127.0.0.1:4000/.
+
+## Add content to your site
+You are now ready to add content to your site!
+
+## Push commits to your GitHub repo
+````markdown
+```unix
+git add .
+git commit -m "first version of my website"
+git push
+```
+````
+New changes will be reflected in a couple of minutes!
+
+## Below are the features of minimal folio
 
 ### Collections
 This Jekyll theme implements collections to let you break up your work into categories. The example is divided into photoportfolio and portfolio, but easily revamp this into recipes, apps, short stories, limmericks, whatever your creative work is.
