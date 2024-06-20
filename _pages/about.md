@@ -12,7 +12,8 @@ I am a PhD student in the Biology department at <a href="https://profiles.stanfo
 
 I graduated from University of California, Berkeley with a degree in Molecular & Cell Biology (MCB). I was advised by <a href="https://ubiquitin.berkeley.edu" target="blank">Michael Rape</a> and worked with <a href="https://www.linkedin.com/in/andrew-manford-94b289a2/" target="blank">Andrew Manford</a> on the ubiquitin proteasome system. <br><br>
 
-In my free time, I like social dancing, skiing, playing board games, and lifting. <br><br>
+In my free time, I like social dancing, skiing, playing board games,
+and lifting. <br><br>
 
 <a href="{{ site.baseurl }}/assets/cv.pdf" target="_blank">CV</a>
 
