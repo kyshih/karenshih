@@ -8,8 +8,9 @@ nav: true
 <img class="col one right" src="{{ site.baseurl }}/assets/img/prof_pic.jpg">
 
 <br/>
-I am a PhD student in the Biology department at <a href="https://profiles.stanford.edu/karen-shih" target="blank">Stanford</a>. I am co-advised by <a href="https://petrovlab-stanford.squarespace.com" target="blank">Dmitri Petrov</a> and <a href="https://med.stanford.edu/winslowlab.html" target="blank">Monte Winslow</a>. We study cancer evolution using tumor barcoding, CRISPR/Cas9-mediated gene editing and deep sequencing in mouse models. With this technique, we aim to investigate the fitness landscape of tumor suppression in lung adenocarcinoma under different intracellular or 
-extracellular environments. <br><br>
+I am a PhD student in the Biology department at <a href="https://profiles.stanford.edu/karen-shih" target="blank">Stanford</a>. I am co-advised by <a href="https://petrovlab-stanford.squarespace.com" target="blank">Dmitri Petrov</a> and <a href="https://med.stanford.edu/winslowlab.html" target="blank">Monte Winslow</a>. We study cancer evolution using tumor barcoding, CRISPR/Cas9-mediated gene editing and deep sequencing in mouse models. With this technique, we aim to investigate the fitness landscape of tumor suppression in lung adenocarcinoma under different intracellular or extracellular environments. <br><br>
+
+I graduated from University of California, Berkeley with a degree in Molecular & Cell Biology (MCB). I was advised by <a href="https://ubiquitin.berkeley.edu" target="blank">Michael Rape</a> and worked with <a href="https://www.linkedin.com/in/andrew-manford-94b289a2/" target="blank">Andrew Manford</a> on the ubiquitin proteasome system. <br><br>
 
 In my free time, I like social dancing, skiing, playing board games, and lifting. <br><br>
 
