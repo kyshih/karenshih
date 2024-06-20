@@ -1,7 +1,7 @@
 # Building a personal website
 I chose to use the static site generator, <a href="https://github.com/jekyll/jekyll?tab=readme-ov-file">Jekyll</a>. It works seamlessly with GitHub.
 It is very customizable without being overly complicated. The Jekyll theme I use for my
-website is adapted from <a href="https://github.com/imkaywu/minimal-folio?tab=readme-ov-file">minimal folio</a> by Kai Wu. See my website <a href="https://kyshih.github.io/karenshih/">my website</a>.
+website is adapted from <a href="https://github.com/imkaywu/minimal-folio?tab=readme-ov-file">minimal folio</a> by Kai Wu. See <a href="https://kyshih.github.io/karenshih/">my website</a>.
 
 <hr/>
 
@@ -16,7 +16,7 @@ Once you find your favoriate theme, fork the repo on GitHub and name your new re
 ## Testing site locally with Jekyll
 
 ````markdown
-```unix
+```
 git clone your_repo
 cd local_path_to_your_repo
 rbenv local 3.3.3 # ruby version for your site
@@ -32,7 +32,7 @@ You are now ready to add content to your site!
 
 ## Push commits to your GitHub repo
 ````markdown
-```unix
+```
 git add .
 git commit -m "first version of my website"
 git push
