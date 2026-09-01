@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 p, blockquote, pre,
 ul, ol, dl, figure, table, .highlight,
 %vertical-rhythm {
-  margin-bottom: $vertical-spacing-unit * 0.5;
+  margin-bottom: 24px;
 }
 
 // TODO: remove if not used.
