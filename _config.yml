@@ -18,6 +18,7 @@ include: ['_pages']
 exclude:
   - Gemfile
   - Gemfile.lock
+  - drafts
 plugins:
   - jekyll-paginate-v2
 
