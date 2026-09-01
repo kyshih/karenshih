@@ -3,6 +3,7 @@ layout: page
 title: research # this will be tab title
 permalink: /research/
 nav: true
+body_class: research-body
 ---
 
 ## Cancer treatment is a race against evolution

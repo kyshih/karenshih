@@ -190,6 +190,10 @@
 .post-content {
   line-height: 1.75;
 
+  &.research-body {
+    font-size: 18px;
+  }
+
   p {
     margin-bottom: 28px;
   }
