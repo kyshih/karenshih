@@ -15,7 +15,7 @@ I am interested in extending this work toward computational and AI-based approac
 
 Before Stanford, I earned my B.A. in Molecular & Cell Biology with honors from UC Berkeley, where I worked in [Michael Rape's lab](https://ubiquitin.berkeley.edu) with [Andrew Manford](https://www.linkedin.com/in/andrew-manford-94b289a2/) on the ubiquitin–proteasome system and cellular stress responses.
 
-**[Download CV]({{ site.baseurl }}/assets/Karen_Shih_CV_2026.pdf)**
+**[CV]({{ site.baseurl }}/assets/Karen_Shih_CV_2026.pdf)**
 
 ---
 

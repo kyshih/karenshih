@@ -189,6 +189,7 @@
 .post-content {
   h2 {
     @include relative-font-size(2);
+    margin-top: 45px;
     @include media-query($on-laptop) {
       @include relative-font-size(2);
     }
@@ -210,6 +211,10 @@
   }
   h6 {
     @include relative-font-size(1.0625);
+  }
+
+  li {
+    margin-bottom: 0.6em;
   }
 }
 

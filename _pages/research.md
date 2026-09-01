@@ -7,7 +7,7 @@ nav: true
 
 ## Cancer treatment is a race against evolution
 
-Cancer is a disease of the genome—but a tumor is not static. It is an evolving population of genetically diverse cells, continually shaped by mutation, cellular stress, and selection. These forces influence which cells survive and expand, how tumors progress, and how they respond to treatment.
+Cancer is a disease of the genome, but a tumor is not static. It is an evolving population of genetically diverse cells, continually shaped by mutation, cellular stress, and selection. These forces influence which cells survive and expand, how tumors progress, and how they respond to treatment.
 
 By identifying the genetic alterations and cellular pathways that shape tumor fitness, we can better understand how cancers evolve and uncover vulnerabilities that may be exploited therapeutically.
 
